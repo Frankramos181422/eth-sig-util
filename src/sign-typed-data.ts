@@ -52,6 +52,7 @@ export enum SignTypedDataVersion {
 }
 
 export interface MessageTypeProperty {
+  
   name: string;
   type: string;
 }
@@ -92,6 +93,8 @@ export interface TypedMessage<T extends MessageTypes> {
 }
 
 export const TYPED_MESSAGE_SCHEMA = {
+  
+ 
   type: 'object',
   properties: {
     types: {
